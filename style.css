@@ -1,0 +1,41 @@
+body{background-color: rgb(145, 165, 113);}
+
+.container{
+    width: 400px;
+    margin:15vh auto 0 auto;
+}
+
+.buttons{
+    display: grid;
+    width:200px;
+    height:235px;
+    background-color: #AA8B56;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#displayanswer{
+    width:200px;
+    height:75px;
+    background-color: #FFEFD6;
+    color:#AA8B56;
+    font-size:24px;
+}
+
+.button{
+    color: #BCE29E;
+    cursor:pointer;
+    font-size: 24px;
+    text-align: center;
+    height: 45px;
+    border: 0.5px solid ;
+}
+
+#equals{
+    background-color: #FFEFD6;
+}
+
+#equals:hover{
+    background-color: beige;
+    color: #AA8B56;
+    transition: ease-in-out;
+}
